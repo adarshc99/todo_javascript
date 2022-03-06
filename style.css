@@ -1,0 +1,198 @@
+body {
+	font-family: "Lato", sans-serif;
+	color: #333333;
+  background-color: lightslategrey;
+
+}
+
+#container {
+	margin: 100px auto;
+	width: 360px;
+	background-color: #FFF5C0;
+	box-shadow: 0px 0px 20px rgba(0,0,0,.3);
+	border-radius: 2px;
+}
+
+h1 {
+	text-transform: uppercase;
+	margin: 0;
+	padding: 10px 20px;
+}
+
+input {
+	outline: none;
+	font-family: "Lato", sans-serif;
+	color: #333333;
+	background-color: white;
+	font-size: 16px;
+	border: none;
+}
+
+#new-todo {
+	box-sizing: border-box;
+	width: 100%;
+	padding: 10px 20px;
+}
+
+#new-todo:hover {
+	border: 1px solid #E3DAAE;
+}
+
+.fa-square-o, .fa-check-square-o {
+	margin-right: 8px;
+	font-size: 16px;
+}* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  height: 100%;
+  background-color: #111;
+  box-sizing: border-box;
+}
+
+h1 {
+color: #fff;
+font-size: 3rem;
+font-weight: 50;
+text-align: center;
+margin: 1rem 0 3rem; 
+font-family: 'Hind', sans-serif;
+}
+
+.title{
+color: rgb(255, 0, 64);
+text-transform: uppercase;
+font-weight: 800;
+}
+
+.inputDiv{
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.input{
+  padding: 0.5rem 1rem;
+  outline: none;
+  border: none;
+  height: 50px;
+  border-radius: 12px;
+  width: 350px;
+  margin: 0.25rem;
+  transition: .5s;
+  font-size: 1.15rem;
+}
+
+.add{
+outline: none;
+  border: none;
+  height: 50px;
+  border-radius: 25px;
+  width: 50px;
+  background-color: lime;
+  color: white;
+  cursor: pointer;
+  transition: .5s;
+  margin: 0.25rem;
+}
+
+.add:hover{
+opacity: 0.7;
+}
+
+.container{
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+text-align: center;
+margin-top: 2rem;
+}
+
+.item{
+padding: 0.5rem;
+border-bottom: 4px solid #fff;
+margin-bottom: 1.5rem;
+}
+
+.item_input{
+background: none;
+outline: none;
+border: none;
+color: #fff;
+font-size: 1.4rem;
+width: 245px;
+}
+
+.edit{
+background: none;
+outline: none;
+border: none;
+color: lime;
+font-size: 1.4rem;
+font-family: 'Hind', sans-serif;
+margin: 0 0.5rem;
+cursor: pointer;
+}
+
+.remove{
+background: none;
+outline: none;
+border: none;
+color: #E00;
+font-size: 1.4rem;
+font-family: 'Hind', sans-serif;
+cursor: pointer;
+}
+
+.completed {
+	color: gray;
+	text-decoration: line-through;
+}
+
+ul {
+	padding: 0;
+	margin: 0;
+	list-style: none;
+}
+
+li {
+	height: 40px;
+	line-height: 40px;
+	padding: 0 10px;
+}
+
+li:hover{
+	border: 1px solid #E3DAAE;
+}
+
+.todo {
+	width: 80%;
+}
+
+#first {
+	display: none;
+	float: right;
+}
+
+li:hover #first {
+	display: inline-block;
+
+}
+
+.fa-times {
+	font-size: 14px;
+	color: gray;
+}
+
+.fa-times:hover {
+	color: #333333;
+}
+
+#update_hide
+{
+	display: none;
+}
